@@ -1,0 +1,124 @@
+/* Selector de ID */
+
+#titulo-principal{
+    background-color: black;
+    font-size: 50px;
+    text-align: center;
+    color: blueviolet;
+    padding: 25px; 
+    letter-spacing: 2px; 
+    border-bottom: 4px solid blueviolet; 
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.6);
+    
+}
+ 
+/* Selector de etiqueta */
+p {
+    font-style: italic;
+    font-size: 18px; 
+    line-height: 1.6; 
+    color: #333333; 
+    margin-bottom: 15px;
+}
+
+/* Selector universal */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Selector de clase */
+.texto{
+    background-color: blue;
+    color: #ffffff; 
+    padding: 15px 20px; 
+    border-radius: 8px; 
+    font-style: normal;
+}
+
+/* \* Body \*  */
+
+body { 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    background-color: #f4f6f9; 
+    color: #222222; 
+    padding: 20px; 
+}
+
+/*  Menú de navegación */
+nav ul { 
+    list-style: none; 
+    display: flex; 
+    justify-content: center; 
+    gap: 25px; 
+    background-color: #16213e; 
+    padding: 15px; 
+    margin-bottom: 30px; 
+    border-radius: 6px; 
+}
+
+/* Enlaces */
+a { 
+    color: #ffffff; 
+    text-decoration: none; 
+    font-weight: bold; 
+    font-size: 16px; 
+    transition: color 0.3s ease; 
+}
+
+a:hover { 
+    color: blueviolet; 
+}
+
+/* Secciones */
+section { 
+    background-color: #ffffff; 
+    padding: 25px; 
+    margin-bottom: 25px; 
+    border-radius: 8px; 
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.05); }
+
+h2 { 
+    color: #16213e; 
+    margin-bottom: 15px; 
+    border-bottom: 2px solid blueviolet; 
+    padding-bottom: 5px; 
+}
+
+/* Formulario de contacto */
+form { 
+    max-width: 500px; 
+    margin: 0 auto; 
+}
+
+label { 
+    font-weight: bold; 
+    color: #16213e; 
+}
+
+/* Botón de envío */ 
+button { 
+    background-color: blueviolet; 
+    color: #ffffff; 
+    padding: 12px 20px; 
+    border: none; 
+    border-radius: 6px; 
+    font-size: 16px; 
+    font-weight: bold; 
+    cursor: pointer; 
+    width: 100%; 
+    transition: background-color 0.3s ease; 
+}
+
+button:hover { 
+    background-color: #5c0fa7; 
+}
+
+/* Imágenes */ 
+img { 
+    max-width: 100%; 
+    height: auto; 
+    border-radius: 8px; 
+    display: block; 
+    margin: 20px auto; }

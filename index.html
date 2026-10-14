@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <title>Agencia Creativa Pixel & Co.</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+<body>
+    <header>
+        <h1 id="titulo-principal">Agencia Creativa Pixel & Co.</h1>
+        <!-- Menú de navegación -->
+        <nav>
+            <ul>
+                <li><a href="#nosotros">Nosotros</a></li>
+                <li><a href="#servicios">Servicios</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Sección de Presentación -->
+        <section id="nosotros">
+            <h2>Sobre Nuestra Agencia</h2>
+            <p class="texto">
+                <strong>Pixel & Co.</strong> es una agencia especializada en <em>diseño web, branding y estrategias digitales</em>. Nos dedicamos a transformar ideas en soluciones digitales impactantes para marcas de todo el mundo.
+            </p>
+            <!-- Imagen del Logo -->
+            <img src="imagenes/proyecto.png" alt="Logo de Agencia Creativa Pixel & Co.">
+        </section>
+
+        <!-- Sección de Servicios -->
+        <section id="servicios">
+            <h2>Nuestros Servicios</h2>
+            <ul>
+                <li>Diseño y Desarrollo Web</li>
+                <li>Estrategia de Marketing Digital</li>
+                <li>Creación de Identidad de Marca</li>
+            </ul>
+        </section>
+
+        <!-- Sección de Formulario de Contacto -->
+        <section id="contacto">
+            <h2>Contáctanos</h2>
+            <form action="/enviar-consulta" method="POST">
+                <p>
+                    <label for="nombre">Nombre completo:</label><br>
+                    <input type="text" id="nombre" name="nombre" required>
+                </p>
+
+                <p>
+                    <label for="correo">Correo electrónico:</label><br>
+                    <input type="email" id="correo" name="correo" required>
+                </p>
+
+                <p>
+                    <label for="servicio">Servicio de interés:</label><br>
+                    <select id="servicio" name="servicio">
+                        <option value="web">Diseño Web</option>
+                        <option value="marketing">Marketing Digital</option>
+                        <option value="branding">Branding</option>
+                    </select>
+                </p>
+
+                <p>
+                    <label for="mensaje">Mensaje:</label><br>
+                    <textarea id="mensaje" name="mensaje" rows="4" cols="40" required></textarea>
+                </p>
+
+                <button type="submit">Enviar Consulta</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p class="texto">© 2026 Agencia Creativa Pixel & Co. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
+
